@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lê Tất Chương</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="shortcut icon" href="/img/logo.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <nav class="nav-container">
+        <nav class="nav-left">
+            <a href="index.html">Home</a>
+            <a href="work.html">Work</a>
+            <a href="about.html">About</a>
+        </nav>
+        <nav class="nav-right">
+            <a href=""><i class="fab fa-behance"></i></a>
+            <a href=""><i class="fab fa-linkedin"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-facebook"></i></a>
+        </nav>
+    </nav>
+    <article>
+        <section class="content-top">
+            <div class="name">
+                <h1>Hi I am Tất Chương</h1>
+                <p>Trường Đại học Greenwich Việt Nam cơ sở Đà Nẵng</p>
+            </div>
+            <div class="my-work">
+                <a href="work.html"><i class="fas fa-photo-video"></i></a>
+                <h1>My works</h1>
+            </div>
+            <div class="about-me">
+                <a href="about.html"><i class="fas fa-pen-alt"></i></a>
+                <h1>About me</h1>
+            </div>
+        </section>
+    </article>
+    <article>
+        <section class="content-top">
+            <div class="av-for-work">
+                <h1>Available <br>for work</h1>
+                <p>tatchuong0511@gmail.com</p>
+                <a href="">Connect</a>
+            </div>  
+            <div class="video">
+                <video src="/img/5952603021766.mp4" id="video"></video>
+            </div>
+            <div class="des-skill">
+                <h1>SKILL</h1>
+                <div>
+                    <div class="skill">
+                        <p>Code/ html/ css/ JavaScrip/ PHP/ Python/ Java/ C++</p>
+                    </div>
+                    <i><i class="fas fa-user-graduate"></i></i>
+                </div>
+            </div>
+        </section>
+    </article>
+    <script>
+        var video = document.getElementById('video');
+
+        video.addEventListener("mouseenter",  () => {
+            video.play();
+        })
+    </script>
+</body>
+</html>
